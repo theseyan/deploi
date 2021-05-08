@@ -25,7 +25,7 @@
     "inquirer": "^8.0.0",
     "public-ip": "^4.0.3",
     "simple-git": "^2.38.0",
-    "ssh-keygen": "^0.5.0",
+    "underscore": "^1.13.1",
     "uuid": "^8.3.2"
   }
 }
