@@ -4,12 +4,17 @@
 */
 
 var deploy = require('./deploy.json');
-var server = require('http');
+var bodyParser = require('body-parser');
+var server = require('express')();
 var core = require('./core/core');
 
+server.use(bodyParser.json());
+
+server.get('/', (req, res) => {
+    console.log(req.body);
+
+    res.end();
+});
+
 //create a server object:
-server.createServer((req, res) => {
-    
-
-
-}).listen(deploy.port);
+server.listen(deploy.port);

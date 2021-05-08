@@ -27,7 +27,7 @@ module.exports.init = () => {
             type: 'input',
             name: 'root',
             message: 'Where do you want the app to be deployed in?',
-            default: __dirname,
+            default: process.cwd(),
         },
         {
             type: 'input',
