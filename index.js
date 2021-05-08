@@ -1,5 +1,5 @@
 /**
- * autodeploy
+ * deploi
  * @author Sayanjyoti Das
 */
 

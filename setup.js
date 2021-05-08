@@ -1,5 +1,5 @@
 /**
- * autodeploy - Setup script
+ * deploi - Setup script
  * @author Sayanjyoti Das
 */
 

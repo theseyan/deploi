@@ -1,10 +1,10 @@
 {
-  "name": "autodeploy",
+  "name": "deploi",
   "version": "1.0.0",
   "description": "Deploy your apps seamlessly through Git",
   "main": "index.js",
   "bin": {
-    "autodeploy": "./bin/index.js"
+    "deploi": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,14 +12,14 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sayanjyotidas/autodeploy.git"
+    "url": "git+https://github.com/sayanjyotidas/deploi.git"
   },
   "author": "Sayanjyoti Das",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sayanjyotidas/autodeploy/issues"
+    "url": "https://github.com/sayanjyotidas/deploi/issues"
   },
-  "homepage": "https://github.com/sayanjyotidas/autodeploy#readme",
+  "homepage": "https://github.com/sayanjyotidas/deploi#readme",
   "dependencies": {
     "edit-json-file": "^1.6.0",
     "inquirer": "^8.0.0",
