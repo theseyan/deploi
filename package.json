@@ -1,0 +1,19 @@
+{
+  "name": "autodeploy",
+  "version": "1.0.0",
+  "description": "Deploy your apps seamlessly through Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayanjyotidas/autodeploy.git"
+  },
+  "author": "Sayanjyoti Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayanjyotidas/autodeploy/issues"
+  },
+  "homepage": "https://github.com/sayanjyotidas/autodeploy#readme"
+}
